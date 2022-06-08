@@ -1,0 +1,16 @@
+inicio
+	entero a;
+	a resta -4;
+	entero b;
+	si(a igual b){
+		a multiplica 4;
+	}
+	si (b menorque x) {
+		9 suma 23;
+	} aparte {
+		9 divide 3;
+	}
+	lee a;
+	imprime 4;
+	imprimeaparte stuff;
+final

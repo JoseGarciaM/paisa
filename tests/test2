@@ -1,0 +1,7 @@
+inicio
+  entero a;
+  int b;
+  int c;
+  int d;
+  a multiplica (b divide c) % (3 suma (d resta 23482));
+final

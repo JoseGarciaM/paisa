@@ -1,0 +1,13 @@
+inicio
+	entero a;
+	entero b;
+	entero d;
+	flotante c;
+	si((a igual 2) or (d igual 3)){
+		a suma 5;
+	}
+	imprime a;
+	imprimeaparte a;
+	imprime 5;
+	imprime c;
+final

@@ -1,0 +1,46 @@
+inicio
+	struct foo {
+		entero w;
+		char x;
+		flotante y;
+		bool z;
+	}
+
+	entero a;
+	char b;
+	flotante c;
+	bool x;
+	a tiene foo.w;
+	b tiene foo.x;
+	c tiene foo.y;
+	x tiene foo.z;
+
+	entero numarr[5];
+
+	si(a igual 5){
+		a tiene 32;
+	}aparte{
+		c tiene 2.3;
+	}
+
+	para(a tiene 0; a menorque 5; a tiene a suma 1){
+		numarr[a] tiene a;
+	}
+	
+	foo.w tiene 1;
+	foo.x tiene 'c';
+	foo.y tiene 22.3;
+	foo.z tiene falso;
+
+	char arr[5];
+	char arr[5];
+	flotante my_floats[5];
+	bool my_bools[5];
+	arr[0] tiene b; 
+
+	func dostuff(entero a, entero b) entero{
+		imprime a;
+	}
+
+	dostuff(4, 5);
+final

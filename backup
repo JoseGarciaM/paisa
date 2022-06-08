@@ -1,0 +1,24 @@
+definition_statement: type_specifier ID SEMI;
+
+assignment_statement: ID ASSIGNMENT_OPERATOR value_literal
+                      | ID ASSIGNMENT_OPERATOR expression
+                      | ID LBRACKET INT RBRACKET ASSIGNMENT_OPERATOR value_literal;
+
+multiplicative_expression: primary_expression
+                          | multiplicative_expression MULTIPLICA primary_expression
+                          | multiplicative_expression DIVIDE primary_expression
+                          | multiplicative_expression MOD primary_expression;
+
+primary_expression: ID | constant | LPAREN expression RPAREN;
+
+constant: NUMBER;
+
+assignment_expression: primary_expression ASSIGNMENT_OPERATOR assignment_expression;
+
+expression: assignment_expression;
+
+expression_statement: expression SEMI | /*empty*/; 
+
+value_literal: NUMBER | CHAR | VACIO;
+
+type_specifier: INT | FLOAT | CHAR | VACIO | STRUCT;
